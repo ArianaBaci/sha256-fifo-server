@@ -1,0 +1,33 @@
+# Prerequisiti di compilazione
+*.d
+
+# File Oggetto
+*.o
+*.obj
+
+# Archivi e Librerie
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# File Eseguibili (senza estensione per Linux/macOS)
+main
+a.out
+*.exe
+*.out
+
+# Cartelle di Debug/Release (se usi IDE o CMake)
+[Dd]ebug/
+[Rr]elease/
+.vscode/
+.idea/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+# Specifico per VS Code
+.vscode/
+*.code-workspace
+.history/
